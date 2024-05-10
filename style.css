@@ -76,7 +76,7 @@ a {
 #sfondo-jumbo {
     background-color:#b4d0e7;
     width: 100%;
-    height: 85vh;
+    height: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ a {
 } 
 
 .intro-sinistro .bottone, .intro-sinistro p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 } 
 
 .intro-sinistro p {
@@ -115,7 +115,7 @@ a {
 
 .fa-arrow-down  {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .immagine-jumbo {
@@ -126,4 +126,54 @@ a {
     width: 100%;
 }
 
+/*PIANO BUSINESS*/
 
+#container-piani {
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+}
+
+.piano-business {
+    width: 65vw;
+}
+
+.piano-business h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.piano-business h2 {
+    font-size: 35px;
+}
+
+.piano-business input, .piano-business h2 {
+    margin-bottom: 40px;
+}
+
+.mensile-annuale {
+    margin-right: 40px;
+}
+
+#opzioni-piani {
+    width: 100%;
+    display: flex;
+    /*DEBUG*/
+    height: 1000px;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+}
+
+#opzioni-piani .tre-alternative {
+    width: calc(100% / 3 - 20px);
+    border: solid rgb(197, 37, 37) 2px;
+    /*DEBUG*/
+    background-color: #0061ff;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: solid red 2px;
+}
