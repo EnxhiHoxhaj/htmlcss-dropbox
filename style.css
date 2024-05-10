@@ -128,6 +128,8 @@ a {
 
 /*PIANO BUSINESS*/
 
+/*REGOLE GENERALI*/
+
 #container-piani {
     width: 100% ;
     display: flex;
@@ -137,6 +139,8 @@ a {
 .piano-business {
     width: 65vw;
 }
+
+/*REGOLE INTESTAZIONE PIANI BUSINESS*/
 
 .piano-business h2 {
     font-size: 35px;
@@ -154,6 +158,8 @@ a {
 .mensile-annuale {
     margin-right: 40px;
 }
+
+/*CONTENUTO DEI PIANI BUSINESS*/
 
 #opzioni-piani {
     width: 100%;
@@ -176,4 +182,15 @@ a {
     justify-content: center;
     padding: 10px;
     border: solid red 2px;
+}
+
+.tre-alternative {
+    font-size: 14px;
+}
+.tre-alternative h4 {
+    font-size: 16px;
+}
+
+.nome-piano h3 {
+    font-size: 25px;
 }
