@@ -349,3 +349,34 @@ hr {
     width: 40%;
     margin-bottom: 50px;
 }
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+}
+
+#logo-partner{
+    width: 100%;
+    display: flex;
+    /*DEBUG*/
+}
+
+#logo-partner div{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    /*DEBUG*/
+    background-color: chocolate;
+    min-height: 500px;
+    border: solid #0061ff;
+}
+.griglia {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.griglia div {
+    width: calc(100% / 2);
+}
+
