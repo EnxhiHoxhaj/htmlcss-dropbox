@@ -137,7 +137,7 @@ a {
     flex-wrap: wrap;
 }
 
-.piano-business, #enterprise {
+.piano-business, #enterprise, #partner {
     width: 65vw;
 }
 
@@ -215,9 +215,7 @@ a {
     margin-bottom: 20px ;
 }
 
-.bottone.prova-gratis {
-    display: block;
-}
+
 
 .caratteristiche-piano {
     width: 80%;
@@ -243,7 +241,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.fa-chec, .link {
+.fa-check, .link {
     color: #0061ff;
 }
 
@@ -257,25 +255,46 @@ hr {
 
 #enterprise {
     border: solid rgb(223, 223, 223) 1px;
-    /*DEBUG*/
-    padding-bottom: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 
 }
 
 #ufficio-vendite {
-    width: 95%;
+    width: calc(100% - 40px);
     margin: auto;
     display: flex;
-    margin-top: 30px;
-    gap: 60px;
+    justify-content: space-between;
+    padding: 30px 0;
 }
 
 #info-vendite {
-    width: 80%;
+    width: 70%;
+    margin-right: 20px;
+}
+/*CONTATTO PARTNER DROPBOX*/
+
+#partner {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 
-#bottone-vendite {
-    width: 20%;
-    position: relative;
+#immagine-partner {
+    width: 65%;
 }
+
+#immagine-partner img {
+    width: 100%;
+}
+
+#info-partner {
+    width: 30%;
+}
+
+.bottone#bianco {
+    background-color: whitesmoke;
+    color: black;
+    border: solid black 1px;
+    margin-top: 30px;
+}
+
