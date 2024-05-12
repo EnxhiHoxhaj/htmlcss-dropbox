@@ -134,9 +134,10 @@ a {
     width: 100% ;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.piano-business {
+.piano-business, #enterprise {
     width: 65vw;
 }
 
@@ -183,7 +184,7 @@ a {
     justify-content: space-between;
 
     /*DEBUG*/
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #opzioni-piani .alternative {
@@ -206,12 +207,11 @@ a {
     margin-bottom: 50px;
 }
 
-.nome-piano h3 {
+.titoli-interni{
     font-size: 25px;
-    margin-bottom: ;
 }
 
-.nome-piano h3, .nome-piano h4 {
+.titoli-interni, .nome-piano h4 {
     margin-bottom: 20px ;
 }
 
@@ -249,4 +249,33 @@ hr {
 
 .punti-salienti {
     margin-bottom: 30px;
+}
+
+
+/*ENTERPRISE */
+
+
+#enterprise {
+    border: solid rgb(223, 223, 223) 1px;
+    /*DEBUG*/
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+
+}
+
+#ufficio-vendite {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+#info-vendite {
+    width: 80%;
+}
+
+#bottone-vendite {
+    width: 20%;
+    position: relative;
 }
