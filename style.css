@@ -137,7 +137,7 @@ a {
     flex-wrap: wrap;
 }
 
-.piano-business, #enterprise, #partner {
+.piano-business, #enterprise, #partner, #contenitore-operazioni {
     width: 65vw;
 }
 
@@ -277,6 +277,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    margin-bottom: 100px;
 }
 
 #immagine-partner {
@@ -298,3 +299,33 @@ hr {
     margin-top: 30px;
 }
 
+/*OPERAZIONI DROPBOX*/
+
+#operazioni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#contenitore-operazioni h2 {
+    margin-bottom: 30px;
+}
+
+.riquadri-op {
+    width: calc(100% / 3 - 30px);
+    min-height: 300px;
+    margin-bottom: 30px;
+
+    /*DEBUG*/
+    background-color: pink;
+    border: solid blue;
+}
+
+.img-op {
+    width: calc(100% /3 -30px);
+}
+
+.img-op img {
+    width: 100%;
+}
