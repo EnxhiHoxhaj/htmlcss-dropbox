@@ -147,50 +147,106 @@ a {
     margin-bottom: 40px;
 }
 
-.piano-business h2 {
-    font-size: 35px;
-}
-
 .piano-business input, .piano-business h2 {
     margin-bottom: 40px;
 }
-
-.mensile-annuale {
-    margin-right: 40px;
+.scelta {
+    border: solid gray 1px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 1s infinite;
+    margin-right: 5px;
 }
 
+.scelta:hover {
+    cursor: pointer;
+    border:solid #0061ff 5px;
+    padding: 5px;
+
+}
+
+.mensile-annuale {
+    display: flex;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#durata  {
+    display: flex;
+    flex-wrap: wrap;
+}
 /*CONTENUTO DEI PIANI BUSINESS*/
 
 #opzioni-piani {
     width: 100%;
     display: flex;
-    /*DEBUG*/
-    height: 1000px;
-    background-color: blanchedalmond;
     justify-content: space-between;
+
+    /*DEBUG*/
+    margin-bottom: 50px;
 }
 
-#opzioni-piani .tre-alternative {
+#opzioni-piani .alternative {
     width: calc(100% / 3 - 20px);
-    border: solid rgb(197, 37, 37) 2px;
-    /*DEBUG*/
-    background-color: #0061ff;
+    border: solid rgb(223, 223, 223) 1px;
 }
 
 .user {
-    display: flex;
     justify-content: center;
     padding: 10px;
-    border: solid red 2px;
+    border-bottom: solid rgb(223, 223, 223) 1px;
+    text-align: center;
 }
 
-.tre-alternative {
+.alternative {
     font-size: 14px;
 }
-.tre-alternative h4 {
-    font-size: 16px;
+
+.nome-piano {
+    margin-bottom: 50px;
 }
 
 .nome-piano h3 {
     font-size: 25px;
+    margin-bottom: ;
+}
+
+.nome-piano h3, .nome-piano h4 {
+    margin-bottom: 20px ;
+}
+
+.bottone.prova-gratis {
+    display: block;
+}
+
+.caratteristiche-piano {
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+hr {
+    width: 20%;
+    margin: 40px 0 50px 0;
+ }
+.bottone.prova-gratis {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 50px 0;
+}
+
+.icone {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.fa-chec, .link {
+    color: #0061ff;
+}
+
+.punti-salienti {
+    margin-bottom: 30px;
 }

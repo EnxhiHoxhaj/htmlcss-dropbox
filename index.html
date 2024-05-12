@@ -92,14 +92,18 @@
                 <!--Intestazione-->
 
                 <h2>Trova il piano business che fa per te</h2>
-                <span class="mensile-annuale">
-                    <input type="radio" value="mensile">
-                    <label for="mensile">Piano mensile</label>
-                </span>
-                <span class="mensile-annuale">
-                    <input type="radio" value="annuale">
-                    <label for="annuale">Piano annuale</label>
-                </span>
+                <div id="durata">
+                    <div class="mensile-annuale">
+                        <button class="scelta"></button>
+                        <div for="mensile">Piano mensile</div>
+                    </div>
+
+                    
+                    <div class="mensile-annuale">
+                        <button class="scelta"></button>
+                        <div>Piano annuale</div>
+                    </div>
+                </div>
 
                 <!--presentazione dei tre piani di business-->
 
@@ -107,50 +111,163 @@
 
                     <!--Primo piano-->
 
-                    <div class="tre-alternative">
+                    <div class="alternative">
                         <div class="user">
                             <i class="fa-solid fa-user"></i>
-                            <label>Singolo</label>
+                            <span>Singolo</span>
                         </div>
-                        <div class="nome-piano">
-                            <h3>Professional</h3>
-                            <h4>€ 12.00</h4>
-                            <span>/mese</span>
-                        </div>
+
                         <div class="caratteristiche-piano">
-                            <i class="fa-solid fa-user"></i>
-                            <span>1 utente</span>
+
+                            <div class="nome-piano">
+                                <h3>Professional</h3>
+                                <h4>€ 12.00</h4>
+                                <span>/mese</span>
+                            </div>
+                            <div class="icone">
+                                <i class="fa-solid fa-user"></i>
+                                <span>1 utente</span>
+                            </div>   
+                            <div class="icone">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>5 TB di spazio di archiviazione sicuro</span>
+                            </div>  
+                            <div class="icone">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Funzzioni di produttività premium e condivisione file sempliced e sicura</span>
+                            </div>
+
+
+                            <button class="bottone prova-gratis">Prova gratis per 30 giorni</button>
+                            <div class="icone">
+                                <span>oppure</span>
+                                <a href="#" class="link">acquista ora</a>
+                            </div>
+
+                            <hr>
+
+                            <h4 class="punti-salienti">Punti salienti del piano</h4>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Invia file fino a 100 GB co Dropbox Transfert</span>
+                            </div>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Caertelle offline su dispositivi mobili</span>
+                            </div>
+
                         </div>
-                        <div class="caratteristiche-piano">
-                            <i class="fa-solid fa-folder"></i>
-                            <span>5 TB di spazio di archiviazione sicuro</span>  
-                        </div>
-                        <div class="caratteristiche-piano">
-                            <i class="fa-solid fa-share-nodes"></i>
-                            <span>Funzzioni di produttività premium e condivisione file sempliced e sicura</span>
-                        </div>
-                        <button class="bottone">inizia</button>
-                        <span>oppure</span>
-                        <a href="#" class="link">acquista ora</a>
-                        <hr>
-                        <h4>Punti salienti del piano</h4>
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Invia file fino a 100 GB co Dropbox Transfert</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Caertelle offline su dispositivi mobili</span>
-                        </div>
+
                     </div>
 
                     <!--Secondo piano-->
 
-                    <div class="tre-alternative"></div>
+                    <div class="alternative">
+
+                        <div class="user">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+
+                        <div class="caratteristiche-piano">
+
+                            <div class="nome-piano">
+                                <h3>Professional</h3>
+                                <h4>€ 12.00</h4>
+                                <span>/mese</span>
+                            </div>
+                            <div class="icone">
+                                <i class="fa-solid fa-user"></i>
+                                <span>1 utente</span>
+                            </div>   
+                            <div class="icone">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>5 TB di spazio di archiviazione sicuro</span>
+                            </div>  
+                            <div class="icone">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Funzzioni di produttività premium e condivisione file sempliced e sicura</span>
+                            </div>
+
+
+                            <button class="bottone prova-gratis">Prova gratis per 30 giorni</button>
+                            <div class="icone">
+                                <span>oppure</span>
+                                <a href="#" class="link">acquista ora</a>
+                            </div>
+
+                            <hr>
+
+                            <h4 class="punti-salienti">Punti salienti del piano</h4>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Invia file fino a 100 GB co Dropbox Transfert</span>
+                            </div>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Caertelle offline su dispositivi mobili</span>
+                            </div>
+
+                        </div>
+
+                    </div>
 
                     <!--Terzo piano-->
 
-                    <div class="tre-alternative"></div>
+                    <div class="alternative">
+
+                        <div class="user">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+
+                        <div class="caratteristiche-piano">
+
+                            <div class="nome-piano">
+                                <h3>Professional</h3>
+                                <h4>€ 12.00</h4>
+                                <span>/mese</span>
+                            </div>
+                            <div class="icone">
+                                <i class="fa-solid fa-user"></i>
+                                <span>1 utente</span>
+                            </div>   
+                            <div class="icone">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>5 TB di spazio di archiviazione sicuro</span>
+                            </div>  
+                            <div class="icone">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Funzzioni di produttività premium e condivisione file sempliced e sicura</span>
+                            </div>
+
+
+                            <button class="bottone prova-gratis">Prova gratis per 30 giorni</button>
+                            <div class="icone">
+                                <span>oppure</span>
+                                <a href="#" class="link">acquista ora</a>
+                            </div>
+
+                            <hr>
+
+                            <h4 class="punti-salienti">Punti salienti del piano</h4>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Invia file fino a 100 GB co Dropbox Transfert</span>
+                            </div>
+
+                            <div class="icone">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Caertelle offline su dispositivi mobili</span>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
