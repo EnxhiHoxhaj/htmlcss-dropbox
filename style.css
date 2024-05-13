@@ -371,16 +371,17 @@ footer {
 }
 
 .centrale{
-    background-color: rgb(221, 218, 215);
+    background-color: #f5f5f5;
 }
 
 #espositore-partner {
-    width: 90%;
-    margin: auto;
+    width: 85%;
+    margin: 40px auto;
+
 }
 
-#cont-img-cent {
-    width: 100%;
+#espositore-partner img {
+    width: 50%
 }
 
 .img-griglia{
@@ -392,7 +393,7 @@ footer {
     filter: invert(1);
 }
 
-#cont-img-cent {
+#cont-img-cent img {
     width: 100%;
 }
 
