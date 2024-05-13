@@ -59,7 +59,7 @@ a {
 
 .bottone {
     text-align: end;
-    padding: 5px 12px;
+    padding: 10px 15px;
     background-color: #0061ff ;
     color: whitesmoke;
     border-style: none;
@@ -137,7 +137,7 @@ a {
     flex-wrap: wrap;
 }
 
-.piano-business, #enterprise, #partner, #contenitore-operazioni, #conclusione-centrale {
+.piano-business, #enterprise, #partner, #contenitore-operazioni, #conclusione-centrale, .sez-footer{
     width: 65vw;
 }
 
@@ -351,14 +351,17 @@ hr {
 
 /*FOOTER*/
 
+
 footer {
     width: 100%;
 }
 
+/*LOGHI PARTNER*/
+
 #logo-partner{
     width: 100%;
     display: flex;
-    /*DEBUG*/
+
 }
 
 .griglia{
@@ -385,5 +388,64 @@ footer {
 
 .griglia.centrale div {
     width: 100%;
+}
+
+/*DROPBOX NELLA TUA AZIENDA*/
+
+#drop-azienda {
+    background-color:#b4d0e7;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.sez-footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sez-footer h2{
+    font-size: 30px;
+    color: rgb(124, 38, 38);
+    width: 40%;
+}
+
+.sez-footer #bianco {
+    padding: 10px 50px;
+    font-size: 14px;
+    border-color: whitesmoke;
+}
+
+/*DOMANDE FREQUENTI*/
+
+#domande {
+    width: 65vw;
+    margin: auto;
+    line-height: 5px;
+    margin: 100px auto;
+}
+
+#domande h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#domande hr{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dom-freq h4 {
+    display: inline-block;
+}
+
+.dom-freq {
+    position: relative;
+}
+
+.dom-freq i{
+    position: absolute;
+    right: 20px;
 }
 
