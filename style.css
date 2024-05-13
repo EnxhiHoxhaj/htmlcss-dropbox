@@ -318,7 +318,6 @@ hr {
 
 .riquadri-op {
     width: calc(100% / 3 - 30px);
-    min-height: 300px;
     margin-bottom: 50px;
 
     /*DEBUG*/
@@ -362,21 +361,29 @@ footer {
     /*DEBUG*/
 }
 
-#logo-partner div{
+.griglia{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
-    /*DEBUG*/
-    background-color: chocolate;
-    min-height: 500px;
-    border: solid #0061ff;
-}
-.griglia {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
+
 .griglia div {
-    width: calc(100% / 2);
+    width: 50%;
+    min-height: 250px;
+    border: solid pink;
+    position: relative;
+}
+
+.img-griglia{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.griglia.centrale div {
+    width: 100%;
 }
 
