@@ -137,7 +137,7 @@ a {
 
 /*REGOLE INTESTAZIONE PIANI BUSINESS*/
 
-.piano-business h2 {
+.titolo-grande {
     font-size: 35px;
     margin-bottom: 40px;
 }
@@ -176,9 +176,6 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
-    /*DEBUG*/
-    margin-bottom: 60px;
 }
 
 #opzioni-piani .alternative {
@@ -209,7 +206,9 @@ a {
     margin-bottom: 20px ;
 }
 
-
+.mese {
+    color: lightgrey;
+}
 
 .caratteristiche-piano {
     width: 80%;
@@ -220,6 +219,7 @@ a {
 hr {
     width: 20%;
     margin: 40px 0 50px 0;
+    color: lightgray;
  }
 .bottone.prova-gratis {
     width: 100%;
@@ -239,6 +239,10 @@ hr {
     color: #0061ff;
 }
 
+.link {
+    text-decoration: underline;
+}
+
 .punti-salienti {
     margin-bottom: 30px;
 }
@@ -249,8 +253,7 @@ hr {
 
 #enterprise {
     border: solid rgb(223, 223, 223) 1px;
-    margin-bottom: 120px;
-
+    margin: 60px 0 150px 0 ;
 }
 
 #ufficio-vendite {
@@ -265,13 +268,14 @@ hr {
     width: 70%;
     margin-right: 20px;
 }
+
 /*CONTATTO PARTNER DROPBOX*/
 
 #partner {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 #immagine-partner {
@@ -287,7 +291,7 @@ hr {
 }
 
 .bottone#bianco {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
     border: solid black 1px;
     margin-top: 30px;
@@ -307,16 +311,12 @@ hr {
 }
 
 #contenitore-operazioni h2 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .riquadri-op {
     width: calc(100% / 3 - 30px);
     margin-bottom: 50px;
-
-    /*DEBUG*/
-    background-color: pink;
-    border: solid blue;
 }
 
 .img-op {
@@ -368,7 +368,6 @@ footer {
 .griglia div {
     width: 50%;
     min-height: 250px;
-    border: solid pink;
     position: relative;
 }
 
@@ -383,6 +382,39 @@ footer {
 .griglia.centrale div {
     width: 100%;
 }
+
+#img-verde {
+    background-color: #a2d39b;   
+}
+
+#img-bordeaux{
+    background-color: #61082b ;
+}
+
+#img-azzuro{
+    background-color: #0093ce ;
+}
+
+#img-arancione{
+    background-color: #ff1c1c ;
+}
+
+#img-rossa {
+    background-color: #d5001f ;
+}
+
+#img-celeste {
+    background-color: #b4d0e7 ;
+}
+
+#img-blu {
+    background-color: #0d2481 ;
+}
+
+#img-giallo {
+    background-color: #ffd830 ;
+}
+
 
 /*DROPBOX NELLA TUA AZIENDA*/
 
