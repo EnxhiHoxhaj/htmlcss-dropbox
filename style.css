@@ -364,11 +364,23 @@ footer {
     flex-wrap: wrap;
 }
 
-
 .griglia div {
     width: 50%;
     min-height: 250px;
     position: relative;
+}
+
+.centrale{
+    background-color: rgb(221, 218, 215);
+}
+
+#espositore-partner {
+    width: 90%;
+    margin: auto;
+}
+
+#cont-img-cent {
+    width: 100%;
 }
 
 .img-griglia{
@@ -377,9 +389,10 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
-.griglia.centrale div {
+#cont-img-cent {
     width: 100%;
 }
 
