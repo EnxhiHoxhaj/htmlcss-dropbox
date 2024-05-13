@@ -452,15 +452,20 @@ footer {
 
 /*LINK FOOTER*/
 
-#link-footer {
+#banner-nero{
     background-color: rgb(23, 23, 26);
     width: 100%;
     
 }
 
+#contenitore-link, #scelta-lingua{
+    width: 75vw;
+    margin: auto;
+    padding: 40px 0;
+}
+
 #contenitore-link {
     width: 75vw;
-
     margin: 40px auto;
     padding: 40px 0;
     display: flex;
@@ -484,4 +489,16 @@ footer {
 .liste-link li {
     line-height: 30px;
     list-style: none;
+}
+
+/*SELTA DELLA LINGUA*/
+
+.fa-earth-americas, #lingua {
+    color: rgb(173, 172, 172);
+}
+
+#lingua {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
 }
